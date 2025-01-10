@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: yellowgreen;
+        background-image: url("https://tmssl.akamaized.net/images/foto/galerie/ronaldo-cristiano-2017-real-madrid-ballon-d-or-2016-0026751808hjpg-1698686328-120749.jpg");
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+      }
+
+      #grad1 {
+        height: 200px;
+        background-color: red;
+        background-image: linear-gradient(
+          to top right,
+          red,
+          rgb(255, 128, 0),
+          orange,
+          yellow,
+          rgb(106, 255, 0),
+          rgb(0, 191, 0),
+          rgb(0, 255, 255),
+          blue
+        );
+
+        text-align: center;
+        margin: auto;
+        margin-top: 115px;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      @keyframes Siu {
+        0% {
+          background-color: white;
+        }
+        25% {
+          background-color: rgb(249, 130, 150);
+        }
+        50% {
+          background-color: rgb(254, 73, 103);
+        }
+        75% {
+          background-color: violet;
+        }
+        100% {
+          background-color: blueviolet;
+        }
+      }
+
+      #anime {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: Siu;
+        animation-duration: 8s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Effect!</h1>
+
+    <div id="grad1">Welome to Codingal</div>
+    <div id="anime">Hello Zapani</div>
+  </body>
+</html>
